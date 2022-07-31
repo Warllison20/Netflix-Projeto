@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Warllison20/Netflix-Projeto/issues"
   },
-  "homepage": "https://github.com/Warllison20/Netflix-Projeto#readme"
+  "homepage": "https://github.com/Warllison20/Netflix-Projeto#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
